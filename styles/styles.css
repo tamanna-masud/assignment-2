@@ -1,0 +1,122 @@
+ /* <uniquifier>: Use a unique and descriptive class name
+// <we//ight>: Use a value from 300 to 700 */
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* body styles */
+.body{
+    width: 1440px;
+
+    /* navbar related styles */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1160px; ;
+    height: 62px;
+    margin: 0 130px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight:bold ;
+    font-size: 32px;
+}
+.nav-des ul{
+    font-weight: 500;
+    font-size:25px ;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.home{
+color:#FEA301 ;
+}
+.about{
+color: #01ACFD;
+}
+.facilities{
+color: #05D4DF;
+}
+.admission{
+color: #5D58EF;
+}
+.nav-btn{
+    color:#FFFFFF ;
+    background-color: #FEA301 ;
+    border: none;
+    border-radius:5px ;
+    font-size: 20px;
+    padding: 10px 60px;
+}
+
+/* banner related styles */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 1160px;
+    height: 575px;
+    margin: 0 130px;
+}
+.banner-content{
+    align-items: left;
+    height: 331px;
+    width: 660px;
+    margin-top:122px ;
+    margin-bottom: 122px;
+    margin-right: 50px;
+    
+}
+.banner-prf-pic{
+    height: 575px; 
+    width: 468px;
+
+}
+.banner-heading{
+    font-weight: bold;
+    font-size: 56px;
+}
+.empowering{
+    color: #FEA301;
+}
+.towards{
+    color:#01ACFD ;
+}
+.banner-btn{
+    color:#FFFFFF ;
+    background-color: #111111 ;
+    border: none;
+    border-radius:5px ;
+    font-size: 20px;
+    padding: 10px 60px;
+}
+
+/* standard section styles */
+
+.standard-section{
+    background-image: url("/assets/bg.png");
+    width: 1440px;
+    height: 879px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.st-card-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.st-card-1{
+    border: #01ACFD;
+    border-radius: 5px;
+
+}
+
